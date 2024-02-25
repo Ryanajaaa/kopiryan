@@ -1,0 +1,66 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero {
+  background-image: url('coffee-shop.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.menu {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu-item {
+  display: inline-block;
+  width: 300px;
+  margin: 20px;
+}
+
+.menu-item img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #f8f8f8;
+  text-align: center;
+  padding: 20px;
+}
